@@ -16,15 +16,17 @@
     <section class="container">
         <div class="row">
             <% allUsers.forEach(user => { %>
-            <div class="col-4 me-3 mt-4 card" style="width: 22rem;">
+            <div class="col-4 col-sm-6 me-3 mt-4 card" style="width: 22rem;">
                 <div class="card-body">
                     <p class="card-subtitle pb-2">Name: <%= user.name %></p>
                     <p class="card-subtitle pb-2">Email: <%= user.email %></p>
                     <p class="card-subtitle pb-2">Role: <%= user.role %></p>
-                    <a href="/edit/<%= user._id %>" class="card-link btn btn-warning">Edit</a>
-                    <form action="/delete/<%=user._id%>?_method=DELETE" method="post">
-                        <input type="submit" value="Delete" class="btn btn-danger">
-                    </form>
+                    <div class="btn-section" style="display: flex;">
+                        <a href="/edit/<%= user._id %>" class="card-link btn btn-warning">Edit</a>
+                        <form action="/delete/<%=user._id%>?_method=DELETE" method="post">
+                            <input type="submit" value="Delete" class="btn btn-danger ms-3">
+                        </form>
+                    </div>
                 </div>
             </div>
             <% }) %>
