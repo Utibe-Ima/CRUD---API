@@ -2,7 +2,7 @@
 
 ## Project Description :
 This project is a sample project that illustrates how Node.js powered apis are being consumed 
-The backend server exposes the following apis (list them) and they are consumed using a form interface
+The backend server exposes the following apis (POST, GET, PATCH, DELETE) and they are consumed using a form interface
 
 ## Get started:
 
