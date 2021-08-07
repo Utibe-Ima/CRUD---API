@@ -12,9 +12,9 @@ Insert, Update and Delete with Node and MongoDB
 ## Get started:
 
 To get started:
-install all project dependencies with ``` bash npm install ```
+install all project dependencies with ``` npm install ```
 
-start server with ``` bash npm start ```
+start server with ``` npm start ```
 
 ---
 
