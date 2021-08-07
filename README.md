@@ -1,9 +1,7 @@
 # Node.js-Expess-MongoDB-CRUD_API
 
 ## Project Description :
-
 This project is focused on CRUD which enables a user interact with the web application by Creating, Edittiing and delete items in the database
----
 
 ## Get started:
 
