@@ -21,7 +21,7 @@ router.post('/register', register);
 
 // edits user info in the database
 router.get('/edit/:id', editForm)
-router.post('/edit/:id', edit)
+router.patch('/edit/:id', edit)
 
 // removes a user
 router.delete('/delete/:id', del)
