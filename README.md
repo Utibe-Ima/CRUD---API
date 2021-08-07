@@ -8,9 +8,9 @@ This project is focused on CRUD which enables a user interact with the web appli
 ## Get started:
 
 To get started:
-*  clone the repo to your local machine use the ``` ``` command
+*  clone the repo to your local machine use the ``` https://github.com/Utibe-Ima/CRUD---API.git ``` command or download the zip file to your local machine
 *  install all project dependencies with ``` npm install ``` command
-*  start the server, use ``` npm start ``` command
+*  start the server with the ``` npm start ``` command
 
 ---
 
