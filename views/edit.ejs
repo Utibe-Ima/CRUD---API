@@ -16,7 +16,7 @@
 
     <section class="container" id="main">
         <div class="form">
-            <form action="/edit/<%= user._id %>" method="POST">
+            <form action="/edit/<%= user._id %>?_method=PATCH" method="POST">
                 <div class="mb-3">
                     <input type="text" class="form-control" name="name" id="name" value="<%= user.name %>" placeholder="">
                 </div>
@@ -26,7 +26,10 @@
                 </div>
     
                 <div class="mb-3">
-                    <input type="text" class="form-control" name="role" id="role" value="<%= user.role %>" placeholder="">
+                    <select class="form-select" name="role" aria-label="Default select example">
+                        <option value="User">User</option>
+                        <option value="Admin">Admin</option>
+                    </select>
                 </div>
                 <button type="submit" class="btn btn-success">Submit</button>
             </form>
