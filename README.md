@@ -1,30 +1,26 @@
 # Node.js-Expess-MongoDB-CRUD_API
 
-## Content discussed :
+## Project Description :
 
-Form Design
-Post Form Data into Node.js
-Implemented Form Validation with mongoose model
-Insert, Update and Delete with Node and MongoDB
-
+This project is focused on CRUD which enables a user interact with the web application by Creating, Edittiing and delete items in the database
 ---
 
 ## Get started:
 
 To get started:
-install all project dependencies with ``` npm install ```
-
-start server with ``` npm start ```
+*  clone the repo to your local machine use the ``` ``` command
+*  install all project dependencies with ``` npm install ``` command
+*  start the server, use ``` npm start ``` command
 
 ---
 
 ## Resources
 
-Node.Js
-Express.Js
-MongoDb
-Mongoose
-Postman
+* Node.Js
+* Epress.Js
+* MongoDB
+* Mongoose
+* Postman
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
